@@ -5,7 +5,7 @@ on:
     inputs:
       host_name:
         description: "Hostname"
-        default: mbot-master
+        default: mbot-330-26
         required: true
       user:
         description: "Username"
@@ -21,7 +21,7 @@ on:
       email:
         description: "Email"
         required: true
-        default: pgaskell@umich.edu
+        default: chienerh@umich.edu
       wifi_cc:
         description: "WiFi Country Code"
         required: true        
@@ -35,7 +35,7 @@ on:
       wpa_ssid:
         description: "Access Point SSID"
         required: true
-        default: MBot-AP
+        default: MBot-26-AP
       wpa_passphrase:
         description: "Access Point Passphrase"
         required: true
