@@ -28,7 +28,7 @@ RUN bash -c "make && make install"
 RUN apt install -y libnss-resolve
 # From 550 install script F2020
 
-#RUN apt-get -y install libjpeg-dev libtiff-dev libpng-dev \
+#RUN apt-get -y install libjpeg-dev libtiff-dev libpng-dev libdc1394-22-dev\
 #    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
 #    libcanberra-gtk-module libdc1394-22-dev
 #RUN apt-get -y install libopencv-dev opencv-doc
@@ -55,7 +55,7 @@ RUN bash -c "python3 -m pip install /home/${user}/rtplot/"
 
 ##################################
 
-
+RUN spt-get install vim
 
 
 
