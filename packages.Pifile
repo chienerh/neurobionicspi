@@ -56,3 +56,4 @@ RUN bash -c "python3 -m pip install /home/${user}/rtplot/"
 ##################################
 RUN apt-get -y install libdc1394-22-dev
 RUN apt-get install vim -y
+RUN apt-get install minicom -y
